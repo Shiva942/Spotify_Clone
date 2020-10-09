@@ -29,6 +29,7 @@ const SCREEN_WIDTH = Dimensions.get("window").width;
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 
 export default class HomeTab extends Component {
+  console.log("HELLO");
   static navigationOptions = {
     tabBarIcon: ({ tintColor }) => (
       <Icon name="ios-home" style={{ color: tintColor }} />
