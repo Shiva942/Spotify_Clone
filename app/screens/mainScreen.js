@@ -13,6 +13,7 @@ import {
   PanResponder,
   Slider
 } from "react-native";
+
 import {
   Icon,
   Card,
@@ -40,9 +41,7 @@ export default class HomeTab extends Component {
   };
   componentWillMount() {
     this.scrollOffset = 0;
-
     this.animation = new Animated.ValueXY({ x: 0, y: SCREEN_HEIGHT - 90 });
-
     this.panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (evt, gestureState) => {
         if (
