@@ -98,6 +98,10 @@ export default class App extends Component {
   }
   render() {
     console.log("Testing Render Function")
+    <div className="component-app">
+        <Display value={this.state.next || this.state.total || "0"} />
+        <ButtonPanel clickHandler={this.handleClick} />
+     </div>
     return <FinalNavigator />;
   }
 }
