@@ -104,6 +104,11 @@ export default class App extends Component {
         <Display value={this.state.next || this.state.total || "0"} />
         <ButtonPanel clickHandler={this.handleClick} />
      </div>
+    <div>
+        <Header />
+        <SearchInput textChange={this.handleSearchChange} />
+        <EmojiResults emojiData={this.state.filteredEmoji} />
+      </div>
     return <FinalNavigator />;
   }
 }
