@@ -30,6 +30,7 @@ export default class testScreen extends Component {
 const styles = StyleSheet.create({
   header: {
     backgroundColor: "black",
+    border:1px solid,
     height: SCREEN_HEIGHT * 0.8
   },
   text: {
