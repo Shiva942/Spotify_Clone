@@ -24,7 +24,9 @@ import Test from "./app/screens/testScreen";
 import { fadeIn } from "react-navigation-transitions";
 const SCREEN_WIDTH = Dimensions.get("window").width;
 const SCREEN_HEIGHT = Dimensions.get("window").height;
-
+handleClick = buttonName => {
+    this.setState(calculate(this.state, buttonName));
+  };
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
   android:
