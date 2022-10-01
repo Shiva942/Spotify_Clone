@@ -51,7 +51,7 @@ const instructions = Platform.select({
 //      }
 //
 //    }
-
+// console.log("TEST");
 const AppNavigator = createBottomTabNavigator(
   {
     Home: {
