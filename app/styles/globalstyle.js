@@ -11,10 +11,10 @@ export const GlobalStyle = StyleSheet.create({
     height: Utils.height
   },
   pageTitle: {
-    backgroundColor: "#4D2988"
+    backgroundColor: "red"
   },
   pageSubTitle: {
-    backgroundColor: "#B27CDA"
+    backgroundColor: "gray"
   },
   innerContainer: {
     flex: 1,
@@ -46,7 +46,7 @@ export const GlobalStyle = StyleSheet.create({
     color: "#4F7CBD"
   },
   textWarning: {
-    color: "#F76D02"
+    color: "red"
   },
   textInfo: {
     color: "#FFC02D"
