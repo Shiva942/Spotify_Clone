@@ -48,8 +48,8 @@ const SCREEN_HEIGHT = Dimensions.get("window").height;
 export default class BrowseTab extends Component {
   static navigationOptions = {
     tabBarIcon: ({ tintColor }) => (
-      <TouchableOpacity style={{ color: "blue" }}>
-        <Icon name="ios-eye" style={{ color: tintColor }} />
+      <TouchableOpacity style={{ color: "grey" }}>
+        <Icon name="ios-eye" style={{ color: grey }} />
       </TouchableOpacity>
     )
   };
@@ -70,7 +70,7 @@ export default class BrowseTab extends Component {
           <Text
             style={{
               color: "white",
-              fontSize: 17,
+              fontSize: 14,
               fontWeight: "bold",
               alignContent: "center",
               alignSelf: "center",
@@ -86,7 +86,7 @@ export default class BrowseTab extends Component {
             <Title>All the latest hits</Title>
             <ScrollView
               horizontal={true}
-              style={{ marginTop: 30 }}
+              style={{ marginTop: 36 }}
               showsHorizontalScrollIndicator={false}
               showsVerticalScrollIndicator={false}
             >
