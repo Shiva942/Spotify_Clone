@@ -105,7 +105,7 @@ function displayAlert(
         buttonText
       ] || buttonText;
   } catch (error) {}
-
+  console.log("TEST");
   DialogManager.show(
     {
       haveTitleBar: false,
