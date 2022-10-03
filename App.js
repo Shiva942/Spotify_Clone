@@ -72,9 +72,9 @@ const AppNavigator = createBottomTabNavigator(
   },
   {
     initialRouteName: "Home",
-    transitionConfig: () => fadeIn(3000),
+    transitionConfig: () => fadeIn(2000),
     tabBarOptions: {
-      activeTintColor: "white",
+      activeTintColor: "gray",
       labelStyle: {
         fontSize: 10
       },
